@@ -1,0 +1,45 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background: transparent;
+    border: 1px solid #F0F0F0;
+    border-radius: 14px;
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-header {
+    flex-grow: 1;
+}
+
+.card-header img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-header h2 {
+    font-size: 20px;
+    padding: 14px 18px;
+}
+
+.card-footer {
+    padding: 14px 18px;
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-wrapper {
+    display: none;
+}

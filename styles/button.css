@@ -1,0 +1,55 @@
+.primary-button {
+    background: darkslategray;
+    padding: 12px 18px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+    background: #222222;
+}
+
+.secondary-button {
+    background: transparent;
+    padding: 12px 18px;
+    text-decoration: none;
+    border: 5px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+    background: darkslategray;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.view-more-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #121212;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+    background-color: darkslategrey;
+}
