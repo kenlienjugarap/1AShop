@@ -81,6 +81,5 @@ header {
 
     .menu-toggle:checked~.nav-links {
         display: flex;
-        z-index: 1000;
     }
 }
